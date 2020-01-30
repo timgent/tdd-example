@@ -33,3 +33,18 @@ sbt
 
 ### Step 3: Implement solution
 Now implement the solution in Solution.fizzbuzz and get all of your tests to pass!
+
+## Now let's try some property based testing...
+Property driven testing is about testing a property of something that should always hold. For example consider testing
+the tail method on a List. The following should always hold, for any list with at least 1 element:
+```
+myList.length shouldBe myList.tail.length + 1
+```
+Property based testing allows us to make sure some condition like this holds regardless of the input. In reality it
+does this by running test cases many times with randomly generated data (which you can enforce constraints on).
+
+What properties do you think should always hold for our fizzbuzz method? Could you write some property driven tests to
+check these properties always hold?
+
+Check out the documentation for ScalaTest with ScalaCheck here:  
+http://www.scalatest.org/user_guide/generator_driven_property_checks
