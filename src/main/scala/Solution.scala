@@ -1,0 +1,3 @@
+object Solution {
+  def fizzbuzz(number: Int): ??? = ???
+}
