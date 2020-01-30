@@ -15,7 +15,7 @@ in general you can ensure a better and more testable design by
 ## Now let's try some TDD to come up with a better solution...
 
 ### Step 1: Define a signature for our method
-First we should come up with a signature for our method Solution.fizzbuzz
+First we should come up with a signature for our method Solution.fizzbuzz. For the implementation use ??? for now.
 
 ### Step 2: Write our test cases
 Next write some tests in SolutionTest to test the Solution.fizzbuzz method - you have 2 possible approaches with TDD.
